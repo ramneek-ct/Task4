@@ -1,0 +1,12 @@
+.main-container{
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+    color: rgb(97, 6, 6);
+    background-color: rgb(237, 195, 195);
+    width: 40%;
+}
+h4{
+    color: #000;
+    font-style: italic;
+}
