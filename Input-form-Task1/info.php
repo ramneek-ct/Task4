@@ -1,12 +1,12 @@
 <?php
         if ($_SERVER["REQUEST_METHOD"]=="POST"){
-            $firstname = $_POST['firstname'] ;
-            $lastname = $_POST['lastname'] ;
-            $phone = $_POST['phone'] ;
+            $f_n = $_POST['first_n'] ;
+            $l_n = $_POST['last_n'] ;
+            $ph_no = $_POST['phn'] ;
              
-            $output = ['firstname' => $firstname,
-            'lastname' => $lastname,
-            'phone' => $phone];
+            $output = ['firstname' => $f_n,
+            'lastname' => $l_n,
+            'phone' => $ph_no];
             header('Content-Type: application/json');
             echo json_encode($output);
         }
